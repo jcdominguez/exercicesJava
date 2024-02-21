@@ -27,5 +27,10 @@ public class ProgrammePrincipal {
         for(Tigre tigre : tigres){
             System.out.println(tigre.getNom());
         }
+
+
+        Elephant babar = new Elephant();
+        babar.setNom("Babar");
+
     }
 }
