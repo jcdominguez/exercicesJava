@@ -32,5 +32,18 @@ public class ProgrammePrincipal {
         Elephant babar = new Elephant();
         babar.setNom("Babar");
 
+
+        babar.parler();
+        tigrou.parler();
+
+        ArrayList<Animal> animauxDuZoo = new ArrayList<>();
+        animauxDuZoo.add(babar);
+        animauxDuZoo.add(tigrou);
+        animauxDuZoo.add(caramel);
+
+        System.out.println("----- Faire parler les animaux du Zoo");
+        for(Animal animal : animauxDuZoo){
+            animal.parler();
+        }
     }
 }

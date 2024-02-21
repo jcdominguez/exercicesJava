@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
 
     private String nom;
     private String couleur;
@@ -29,4 +29,6 @@ public class Animal {
             this.age = age;
         }
     }
+
+    public abstract void parler();
 }
