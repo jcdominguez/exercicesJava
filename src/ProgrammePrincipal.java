@@ -1,9 +1,13 @@
 public class ProgrammePrincipal {
     public static void main(String[] args) {
         Tigre tigrou = new Tigre();
-        tigrou.nom = "Tigrou";
-        tigrou.couleur = "marron";
+        tigrou.setNom("Tigrou");
+        tigrou.setCouleur("marron");
 
-        tigrou.age = -5;
+        tigrou.setAge(-5);
+        System.out.println(tigrou.getAge());
+
+        tigrou.setAge(5);
+        System.out.println(tigrou.getAge());
     }
 }
